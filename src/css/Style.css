@@ -1,0 +1,59 @@
+/* Style.css */
+
+body, form, span, select, input, textarea{ font-family: 'Open Sans', sans-serif; font-size: 20px;color:rgb(34, 32, 32)}
+
+/* margin values in a single definition */
+body{Margin : 75px 100px 100px 100px;}
+
+
+/* format input boxes */
+input{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* format priority dropdown box */
+.priority-item{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* format message text area */
+textarea {
+  display: block;
+  margin: 0 auto;
+  resize: vertical;
+  width: 50%;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:150px;
+}
+
+/* format submit button */
+input[type="submit"] {
+  background-color: rgb(7, 136, 7);
+  color: white;
+  width: 100px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+body { 
+background-color: rgba(23, 66, 21, 0.585);
+}
+
+
+/* style headers */
+h1, h2{text-align: center; color:rgb(6, 40, 6)}
+label{color:rgb(6, 40, 6)}
+
+
+
+

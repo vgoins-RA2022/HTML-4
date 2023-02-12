@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/Style.css" type="text/css">
+    <title>Contact Page</title>
+  </head>
+
+  <body>
+    <!-- form heading -->
+    <p><h2>CONTACT US</h2></p>
+
+    <!-- form input objects -->
+    <form id="contact-frm" name="contact-page" accept-charset="utf-8" margin="auto" VALUE="Reset" action="" method="">
+      <fieldset id="input-frm">
+
+        <!-- priority dropdown values -->
+        <div class = priority-item>
+          <label for="priority">Priority:</label>
+          <select name="priority" id="priority">  
+            <option value="low">low</option>
+            <option value="medium">medium</option>
+            <option value="high">high</option>
+          </select>
+        </div>
+
+        <!--Name and email input-->
+        <p><input type="text" name="name" placeholder= "Full Name" required></p>
+        <p><input type="email" name="email-address" id="Email-Address" placeholder="Email Address" required></p>      
+
+        <!-- message box -->
+        <p><textarea name="message" rows="12" cols="65"placeholder="Message" required maxlength=1000></textarea></p>
+        
+        <!-- submit/send button -->
+        <input type="submit" value="Submit">
+
+      </fieldset>
+    
+    </form>
+    
+  </body>
+</html>
